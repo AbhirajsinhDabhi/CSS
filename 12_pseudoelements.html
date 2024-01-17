@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* firstline pseudo elements */
+        p::first-line{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* firstlatter pseudo elements */
+        p::first-letter{
+            color: brown;
+            font-size: 70px;
+        }
+
+        /* before pseudo elements */
+        h1::before{
+            content: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalTI819fSaZNOVXfOqJS42HROq9Xy_Y89fA&usqp=CAU");
+        }
+
+        /* after pseudo elements */
+        pre::after{
+            content: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-xdxKBEXnXexhQlFMdYDwiy1D7fh-m5Z1g&usqp=CAU");
+        }
+
+        /* marker pseudo elements */
+        ::marker{
+            color: crimson;
+            font-size: 40px;
+        }
+
+        ::selection{
+            color: darkred;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iure esse ipsa numquam, illum, aspernatur ad quia dolore itaque molestiae voluptatibus dolor facere, at debitis minus illo. Illum, ipsum optio.
+    Reprehenderit, laborum! Enim, dolor. Fugiat ipsum eligendi sunt praesentium, unde ab id voluptate distinctio assumenda cumque expedita impedit, placeat perspiciatis atque aliquid deleniti corrupti voluptatum ipsam architecto repellat molestias nostrum!
+    Voluptas ullam accusantium temporibus a ab nam soluta, saepe iste dolore sunt hic est! Sint repellat quas quibusdam, consequuntur eum delectus sapiente doloremque ipsam, accusantium, nihil dignissimos obcaecati reiciendis. Quod.
+    Delectus neque, nisi maxime minus fugiat molestiae totam officiis saepe omnis reiciendis eligendi dicta debitis beatae recusandae laudantium tempore quibusdam nemo molestias, repellendus nesciunt optio consequuntur et similique. Tenetur, dignissimos.
+    Dolorem consectetur similique magnam libero veniam obcaecati, repellendus voluptates debitis placeat hic iste nobis nulla quia omnis voluptas itaque ducimus molestiae vero odit culpa incidunt! Veritatis laboriosam et rem reprehenderit?</p>
+    <hr>
+    <h1>“Look back, and smile on perils past.”</h1>
+    <hr>
+    <h2><b><pre>The Best How to be happy Quotation Book ever Published.</pre></b></h2>
+    <hr>
+    <ul>
+        <li>Love</li>
+        <li>Sadness</li>
+    </ul>
+    <ol type="1">
+        <li>Single</li>
+        <li>Happiness</li>
+    </ol>
+    <hr>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+p{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    background-color: rgb(205, 71, 50);
+    font-style: bold;
+}

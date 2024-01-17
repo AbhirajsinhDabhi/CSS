@@ -1,0 +1,57 @@
+/* Element selector */
+p,h1{
+    color: darkblue;
+    font-size: x-large;
+    font-style: bold;
+    text-align: center;
+}
+
+/* id selector */
+#myid{
+    color: darkslategray;
+}
+
+/* class selector */
+.myclass{
+    color: lightcoral;
+}
+
+/* universal selector */
+*{
+    background-color: lightblue;
+    color: darkred;
+    font-style: bold;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* descendant selector */
+/* ul b{
+    font-style: italic;
+    color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* child selector */
+ul>b{
+    font-style: italic;
+    color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* attribute selector */
+input[type="text"] {
+    background-color: darkorange;
+    color: darkslategray;
+    width: 150px;
+    /* display: block; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+input[type="button"]{
+    background-color: darkseagreen;
+    color: darkslategray;
+    width: 150px;
+    /* display: block; */
+}
